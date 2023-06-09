@@ -7,6 +7,17 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
+const team = players;
+// spread operator
+const team1 = [...players];
+
+// for(let x of players){
+	
+// }
+
+const cap1 = Object.assign({}, person);
+
+
 window.players = players;
 window.person = person;
 window.team = team;
